@@ -115,6 +115,13 @@ button.ghost {
   margin-bottom: 12px;
 }
 
+.headerActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
 .panelHeader h2,
 .stats h2 {
   font-size: 16px;
@@ -219,6 +226,11 @@ select,
   gap: 8px;
   grid-template-columns: 1fr 1fr;
   margin-top: 12px;
+}
+
+.actions button {
+  min-width: 0;
+  padding: 0 10px;
 }
 
 .columnsPanel {
